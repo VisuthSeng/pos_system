@@ -1,5 +1,5 @@
 import 'package:get/get.dart';
-import 'package:pos_system/controller/pos_controller.dart';
+import 'package:pos_system/presentation/controller/pos_controller.dart';
 
 class MainBinding extends Bindings {
   @override

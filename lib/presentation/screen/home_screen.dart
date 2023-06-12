@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:pos_system/controller/pos_controller.dart';
+import 'package:pos_system/presentation/controller/pos_controller.dart';
 import 'package:pos_system/data/model/pos_model.dart';
 
 class HomeScreen extends StatefulWidget {
