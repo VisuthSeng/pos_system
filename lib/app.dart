@@ -14,20 +14,20 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const HomeScreen(),
+      home: const WelcomeScreen(),
       // theme: AppTheme.red(),
       // locale: AppLocalization.locale,
       // fallbackLocale: AppLocalization.fallbackLocale,
       // translations: AppLocalization(),
       initialBinding: MainBinding(),
-      initialRoute: AppRoute.addcategory,
+      initialRoute: AppRoute.onboarding,
       getPages: [
         GetPage(
-          name: AppRoute.home,
+          name: AppRoute.onboarding,
           page: () => const WelcomeScreen(),
         ),
         GetPage(
-          name: AppRoute.addcategory,
+          name: AppRoute.home,
           page: () => const HomeScreen(),
         ),
       ],
